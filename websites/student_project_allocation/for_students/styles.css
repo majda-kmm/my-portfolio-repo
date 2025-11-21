@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.school-banner {
+    background: white;
+    text-align: center;
+    padding: 20px 30px;
+    border-bottom: 2px solid #229CD3;
+}
+
+.school-title {
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.school-logo {
+    height: 55px;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #003366;
+    font-weight: 600;
+    margin: 40px auto 20px;
+    text-align: center;
+}
+
+.upload-box {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    width: 95%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    border: 1px solid #229CD3;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:hover,
+select:hover {
+    border-color: #003366;
+}
+
+button {
+    background: #003366;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #229CD3;
+    transform: translateY(-2px);
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: green;
+}
+.project-list {
+    width: 95%;
+    max-width: 600px;
+    margin: 20px auto 40px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    padding: 20px 30px;
+    text-align: center;
+  }
+  
+  .project-list h2 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #003366;
+  }
+  
+  #project-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #project-table thead tr {
+    background-color: #229CD3;
+    color: white;
+    font-weight: 600;
+  }
+  
+  #project-table thead th {
+    padding: 12px 15px;
+    text-align: left;
+    letter-spacing: 0.03em;
+  }
+  
+  #project-table tbody tr {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  #project-table tbody tr:hover {
+    background-color: #e6f2fb;
+  }
+  
+  #project-table tbody td {
+    padding: 12px 15px;
+    border-left: 4px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  #project-table tbody tr:hover td {
+    border-left-color: #229CD3;
+  }

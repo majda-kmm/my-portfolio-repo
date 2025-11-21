@@ -1,11 +1,12 @@
-<h1 align="center">🌸 majda kemmou — portfolio</h1>
-
 <p align="center">
-computer science & data science student :)<br/>
-eurecom · aalto university · ml & software
+  <img src="assets/banner.png" alt="majda-banner" width="100%" />
 </p>
 
-[Email](mailto:majdakemmou@gmail.com) • [GitHub](https://github.com/majda-kmm) • [LinkedIn](https://www.linkedin.com/in/...)
+<p align="center">
+  <a href="mailto:majdakemmou@gmail.com">Email</a> •
+  <a href="https://github.com/majda-kmm">GitHub</a> •
+  <a href="https://www.linkedin.com/in/majda-kemmou">LinkedIn</a>
+</p>
 
 ---
 
@@ -29,18 +30,15 @@ folders are clear and everything’s documented so you can dive in easily 💻
 - **dropout as a bayesian approximation — reproduction**  
   paper + code + figures  
   section 5.4 fully reproduced  
-  `/research/dropout-bayesian-approx/`
+  `/projects/dropout-bayesian-approx/`
 
 - **air transport ml models (sita)**  
   pipelines, preprocessing tweaks, model improvements  
-  `/industry/sita/`
+  `/internships/sita/`
 
-### algorithms & systems
+### algorithms & systems (soon)
 - codeforces & leetcode — clean solutions 
   `/algorithms/`
-
-- dbms in java — queries, indexes, transactions handled properly  
-  `/systems/dbms-java/`
 
 ### ai & interactive projects
 - ultimate tic-tac-toe + ai + hand gestures  
@@ -53,20 +51,20 @@ folders are clear and everything’s documented so you can dive in easily 💻
 
 ### web projects
 - student project matching — full-stack platform  
-  `/web/student-allocation/`
+  `/websites/student-allocation/`
 
 - gîte napoléon booking system — automated reservations & billing  
-  `/web/gite-napoleon/`
+  `/websites/gite-napoleon/`
 
 - le flocon — js + firebase + paypal + calendar management  
-  `/web/le-flocon/`
+  `/websites/le-flocon/`
 
 ### industry cases
 - beev — electric vehicle routing  
-  `/industry/beev/`
+  `/internships/beev/`
 
 - sita — aircraft ml models  
-  `/industry/sita/`
+  `/internships/sita/`
 
 ---
 

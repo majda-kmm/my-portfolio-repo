@@ -1,0 +1,11 @@
+Interface designers:
+KEMMOU Majda & HENRY Mathieu
+                           
+Game AI developer:
+GUALINO Lelio
+
+Communication:
+BONNET Théo
+
+Object tracking:
+GERBEAU François

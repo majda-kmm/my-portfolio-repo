@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <meta charset="UTF-8" />
+  <title>Project Student Allocation at EURECOM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="school-banner">
+    <div class="school-title">GRADUATE SCHOOL AND RESEARCH IN DIGITAL SCIENCE</div>
+    <img src="assets/logo.png" alt="School Logo" class="school-logo" />
+  </div>
+
+  <h1>Project Student Allocation at EURECOM</h1>
+
+  <div class="project-list">
+    <h2 style="color: #003366;">Available Projects</h2>
+    <table id="project-table">
+        <thead>
+        <tr>
+          <th>Project Title</th>
+          <th>Project ID</th>
+          <th>Quotas</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="upload-box">
+    <h2 style="color: #003366; margin-bottom: 30px;">Student Project Ranking</h2>
+    <form id="ranking-form">
+      <label for="name">Your Name, then Surname:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="choice1">1st Choice:</label>
+      <select id="choice1" name="choice1" required></select>
+
+      <label for="choice2">2nd Choice:</label>
+      <select id="choice2" name="choice2" required></select>
+
+      <label for="choice3">3rd Choice:</label>
+      <select id="choice3" name="choice3" required></select>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
